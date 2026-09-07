@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+</head>
+<body>
+    <header>
+        <div>
+        <h1 style="text-align: center; text-decoration: underline;">Fill Up the Form</h1>
+        <img src="image/chicken-burgers-index-667b185b5f528.png" alt="Logo" width="50">
+        </div>
+    </header>
+    <main class="form" id="form">
+        <form action="">
+            <select name="select" id="select">
+                <option value="">==Select a Option==</option>
+                <option value="chicken_pizza">Chicken Pizza</option>
+                <option value="beef_pizza">Beef Pizza</option>
+                <option value="chicken_burger">Chicken Burger</option>
+                <option value="beef_burger">Beef Burger</option>
+                <option value="coke">Coke</option>
+                <option value="coffee">Coffee</option>
+            </select><br>
+            <label for="fname">First name</label><br>
+            <input type="text" class="fname" id="fname" name="fname" required><br>
+            <label for="lastname">Last name</label><br>
+            <input type="text" class="lastname" name="lastname" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" name="email" required><br>
+            <label for="adress">Adress</label><br>
+            <textarea name="adress" id="adress" placeholder="Enter your full adress" name="adress" required></textarea><br>
+            <p style="text-decoration: solid;">Delivery Type :</p>
+            <label for="cod">Cash on delivery</label>
+            <input type="radio" value="cod" name="delivery" id="delivery"><br>
+            <label for="Payment">Payment</label>
+            <input type="radio" value="Payment" name="delivery" id="delivery"><br>
+            <br>
+            <label for="contact">Contact</label><br>
+            <input type="number" class="contact" id="contact" name="name"><br>
+            <input type="submit" value="Order">
+        </form>
+
+    </main>
+</body>
+</html>
