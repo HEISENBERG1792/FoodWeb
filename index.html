@@ -4,34 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodie Restaurant</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="homepage" id="homepage">
-        <div>
-        <h1 style="text-decoration: underline;text-align: center;">Foodie Restaurant</h1>
-        <img src="image/chicken-burgers-index-667b185b5f528.png" alt="Logo" width="50">
+    <header class="nevbar" id="nevbar">
+        <div class="nav-logo">
+        <img src="image/chicken-burgers-index-667b185b5f528.png" alt="Logo" height="38px" width="38px">
+        <span class="logo-text">Foodie Restaurant</span>
         </div>
         <nav class="subpages" id="subpages">
             <a href="index.html" class="home" id="home">Home</a>
             <a href="menu.html" class="menu" id="menu">Menu</a>
             <a href="contact.html">Contact</a>
+            <a href="order_form.html" class="order-btn">Order Now</a>
         </nav>
+        
     </header>
-    <main class="main" id="main">
-        <section class="welcomemsgsection" id="welcomemsgsection">
-            <h3 style="text-align: center;" class="welheading">Welcome to Foodie</h3>
-            <p class="welcomemsg" id="welcomemsg">Eat more , get more NIGGAS!!!</p>
-        </section>
-            <video muted autoplay loop>
-                <source src="image/4,200+ Food Video Templates Download _ After Effect Templates MP4 Free Download - Pikbest.mp4 " type="video/mp4">
-            </video>
-        <button class="ordernow" id="ordernow"><a href="order_form.html">Order now</a></button>
-    </main>
+    <section class="hero-section">
+        <video autoplay muted loop class="bg-video">
+            <source src="image/4,200+ Food Video Templates Download _ After Effect Templates MP4 Free Download - Pikbest.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+        <div class="hero-content">
+            <h1>Your favourite<br>food<br>in a tap</h1>
+        </div>
+    </section>
+    <section class="intro-section">
+        <div class="intro-container">
+            <h2>We’re here to help you live life the foodie way.</h2>
+            <p>Spend more time doing what you love – we’ll take care of tasty meals, fresh ingredients, and new flavours delivered straight to your door.</p>
+        </div>
+    </section>
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-col">
                 <h3>Foodie Restaurant</h3>
-                <p style="color: #bbb; font-size: 0.9rem;">Delivering happiness and flavor to your home with speed and style.</p>
+                <p>Delivering happiness and flavor to your home with speed and style.</p>
             </div>
             <div class="footer-col">
                 <h3>Quick Links</h3>
